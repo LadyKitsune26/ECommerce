@@ -144,12 +144,36 @@ button:active{
 
 /* highlights */
 
-#higlights:before{
-    content: "Hello";
+#highlights{
+    position: absolute;
+}
+
+#highlights:before{
+    background: url('./assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    top: 1px;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-100%);
 }
 
 #highlights:after{
-    content: "Hello";
+    background: url('./assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    bottom: 1px;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(100%);
 }
 
 .highlight__wrapper{
@@ -186,4 +210,10 @@ button:active{
     font-size: 20px;
     margin-bottom: 16px;
 
+}
+
+/* features */
+
+#features{
+    background-color: rgb(206, 247, 233);
 }
