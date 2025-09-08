@@ -134,11 +134,12 @@ button:active{
 
 .container{
     padding: 56px 0;
+    width: 100%;
 }
 
 .row{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -214,6 +215,3 @@ button:active{
 
 /* features */
 
-#features{
-    background-color: rgb(206, 247, 233);
-}
