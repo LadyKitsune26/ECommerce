@@ -144,12 +144,12 @@ button:active{
 
 /* highlights */
 
-#higlight:before{
-    content: content;
+#higlights:before{
+    content: "Hello";
 }
 
-#highlight:before{
-    content: content;
+#highlights:after{
+    content: "Hello";
 }
 
 .highlight__wrapper{
