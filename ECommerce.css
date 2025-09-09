@@ -63,12 +63,20 @@ li {
     padding: 8px;
 }
 
+.nav__link--second{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(2, 141, 95);
+    font-weight: bold;
+}
+
 .nav__link--primary{
     border: 2px solid;
     color: rgb(2, 141, 95);
 }
 
-.nav__link--primary:hover{
+.nav__link--primary, .nav__link--secondary:hover{
     text-decoration: none;
 }
 
@@ -79,7 +87,7 @@ li {
 }
 
 header {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -134,19 +142,18 @@ button:active{
 
 .container{
     padding: 56px 0;
-    width: 100%;
 }
 
 .row{
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 /* highlights */
 
 #highlights{
-    position: absolute;
+    position: relative;
 }
 
 #highlights:before{
