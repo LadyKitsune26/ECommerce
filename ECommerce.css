@@ -225,7 +225,7 @@ button:active{
 /* features */
 
 #features{
-    height: 1000px;
+    padding-top: 8vw;
     background-color: rgb(206, 247, 233);
 }
 
@@ -237,8 +237,13 @@ button:active{
 
 .book{
     width: 25%;
+    padding: 24px;
 }
 
 .book__img{
     max-height: 380px;
+}
+
+.book__img--wrapper{
+    margin-bottom: 8px;
 }
