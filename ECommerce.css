@@ -7,6 +7,8 @@
     font-family: "Roboto", sans-serif;
 }
 
+
+
 nav{
     height: 80px;
     display: flex;
@@ -181,7 +183,7 @@ button:active{
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(100%);
+    transform: translateY(100%) rotate(180deg);
 }
 
 .highlight__wrapper{
@@ -222,3 +224,21 @@ button:active{
 
 /* features */
 
+#features{
+    height: 1000px;
+    background-color: rgb(206, 247, 233);
+}
+
+/* books */
+
+.books{
+    display: flex;
+}
+
+.book{
+    width: 25%;
+}
+
+.book__img{
+    max-height: 380px;
+}
