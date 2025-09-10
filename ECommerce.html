@@ -18,6 +18,19 @@
                         <li><a class="nav__link nav__link--primary" href="">Books</a></li>
                     </ul>
             </div>
+            <button class="btn__menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul>
+                    <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__list"><a href="#features" class="menu__link">Books</a></li>
+                    <li class="menu__list"><a href="" class="menu__link no-cursor">Contact</a></li>
+                </ul>
+            </div>
         </nav>
         <header>
             <div class="header__container">
@@ -162,7 +175,7 @@
         </section>
         <section id="latest">
             <div class="container">
-                <div class="row">
+                <div class="row row__column">
                     <h2 class="section__title">
                         Latest <span class="aqua">Books</span>
                     </h2>
@@ -321,24 +334,26 @@
             <div class="container">
                 <div class="row row__column">
                     <h2 class="explore__header">Explore more <span class="aqua">Books</span></h2>
+                    <a href="#features">
                     <button class="btn">Browse Books</button>
+                    </a>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row row__column">
                 <a href="#">
                 <figure class="foot__logo">
                     <img src="./assets/Library.svg" class="footer__logo--img" alt="Library Logo">
                 </figure>
                 </a>
                 <div class="footer__list">
-                    <a class="footer__link" href="Home"></a>
-                    <a class="footer__link no-cursor" href="About"></a>
-                    <a class="footer__link" href="Books"></a>
-                    <a class="footer__link no-cursor" href="Contact"></a>
+                    <a class="footer__link" href="Home">Home</a>
+                    <a class="footer__link no-cursor" href="About">About</a>
+                    <a class="footer__link" href="Books">Books</a>
+                    <a class="footer__link no-cursor" href="Contact">Contact</a>
                 </div>
                 <div class="footer__copyright">Copyright &copy; 2025 Library</div>
             </div>
